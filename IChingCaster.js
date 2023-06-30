@@ -171,6 +171,3 @@ function getRandomInt(max) {
 
     return combinedRandomNumber;
 }
-
-
-castHexagram();
