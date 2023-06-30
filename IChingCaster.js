@@ -30,7 +30,7 @@ function loadHexagramMetadata(callback) {
 function castHexagram() {
     const hexagramContainer1 = document.getElementById("hexagramContainer");
     const hexagramContainer2 = document.getElementById("hexagramContainer2");
-
+    hexagramContainer1.style.display = "grid";
     hexagramContainer1.innerHTML = "";
     hexagramContainer2.innerHTML = "";
 
@@ -48,7 +48,7 @@ function castHexagram() {
             }
             return line;
         });
-
+        hexagramContainer2.style.display = "grid";
         hexagramContainer2.appendChild(createHexagramElement("Changing Hexagram:", hexagram2));
     }
     if (hexagramContainer2) {
