@@ -1,4 +1,3 @@
-/* Default styles */
 
 h1 {
     width: 100%;
@@ -34,14 +33,12 @@ h1 {
    
 }
 .btn:active {
-
     background-color:  rgba(84, 157, 95, 0.4)!important;
     border-color:  rgba(84, 157, 95, 0.4)!important;
     box-shadow: 0 3px 6px #6f6f6f !important;
 }
 
 #hexagramContainer {
-
     display: none;
     grid-template-columns: 1fr 1fr;
     text-align: center;
@@ -61,7 +58,6 @@ h1 {
     text-shadow: 0 4px 12px rgba(0, 0, 0, 0.9);
 }
 #hexagramContainer2 {
-
     display: none;
     grid-template-columns: 1fr 1fr;
     text-align:   center;
@@ -81,9 +77,6 @@ h1 {
 }
 
 body {
-    /*  display: flex;
-      justify-content: center;
-      align-items: center;*/
     height: 100vh;
     margin-top: 2%;
     margin-bottom: 2%;
