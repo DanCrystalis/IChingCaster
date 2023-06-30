@@ -42,7 +42,7 @@ h1 {
 
 #hexagramContainer {
 
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr;
     text-align: center;
     color: whitesmoke;
@@ -62,7 +62,7 @@ h1 {
 }
 #hexagramContainer2 {
 
-    display: grid;
+    display: none;
     grid-template-columns: 1fr 1fr;
     text-align:   center;
     color: whitesmoke;
